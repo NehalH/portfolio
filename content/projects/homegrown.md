@@ -7,7 +7,7 @@ tags: ["Mobile Application Development", "Java", "Firebase", "Android"]
 showToc: false
 weight: 150
 cover:
-    image: "projects/orgAero/cover.jpg"
+    image: "projects/homegrown/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/HomeGrown)
 

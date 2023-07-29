@@ -2,7 +2,7 @@
 title: "WALNUT LOCKER - (ONGOING)"
 description: "A command line application that provides file protection through the use of the operating system's user permission modes. | Tech Stack: Python, Bash."
 #dateString: Jan 2021 - May 2021
-draft: true
+draft: false
 tags: ["Python","Bash", "Linux", "OS"]
 showToc: false
 weight: 170

@@ -2,7 +2,7 @@
 title: "GUT-WISE"
 description: "A Decision Tree based classification model for determining gut health."
 #dateString: Jan 2021 - May 2021
-draft: true
+draft: false
 tags: ["Machine Learning", "Python", "Classification model"]
 showToc: false
 weight: 160

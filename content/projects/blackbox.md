@@ -6,8 +6,8 @@ draft: false
 tags: ["Arduino", "Embeded C"]
 showToc: false
 weight: 190
-cover:
-    image: "projects/orgAero/cover.jpg"
+# cover:
+#     image: "projects/orgAero/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/black-box)
 

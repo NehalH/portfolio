@@ -6,8 +6,8 @@ draft: false
 tags: ["Flutter", "Mobile Application Development", "Machine Learning"]
 showToc: false
 weight: 180
-cover:
-    image: "projects/orgAero/cover.jpg"
+# cover:
+#     image: "projects/orgAero/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/BacLens)
 

@@ -8,7 +8,7 @@ tags: ["PostgreSQL", "Flask", "Bootstrap", "HTML", "DBMS", "Jinja2", "HTML", "CS
 showToc: false
 weight: 130
 cover:
-    image: "projects/orgAero/cover.jpg"
+    image: "projects/bookswap/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/book-swap)
 
