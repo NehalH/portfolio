@@ -1,8 +1,7 @@
 ---
-author: "Muhammad Daffa"
+author: "Nehal Hosalikar"
 # title: "Nehal Hosalikar"
 date: "2019-03-09"
-# description: "About Muhammad Daffa"
 showToc: false
 draft: false
 hidemeta: true

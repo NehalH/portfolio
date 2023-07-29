@@ -11,7 +11,8 @@ menu:
       weight: 10
     - identifier: blog
       name: Blog
-      url: /blog/comingsoon
+      url: /about/about
+      #url: /blog/comingsoon
       weight: 20
     - identifier: projects
       name: Projects
@@ -64,7 +65,7 @@ params:
     imageHeight: 160
     buttons:
       - name: About
-        url: "/about.md"
+        url: about/about
       - name: Resume
         url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
