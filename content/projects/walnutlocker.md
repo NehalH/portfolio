@@ -5,7 +5,7 @@ description: "A command line application that provides file protection through t
 draft: false
 tags: ["Python","Bash", "Linux", "OS"]
 showToc: false
-weight: 170
+weight: 160
 cover:
     image: "projects/walnut/cover.jpg"
 --- 
