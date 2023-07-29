@@ -7,7 +7,7 @@ tags: ["REST", "API", "Python", "Flask", "Postman", "Stocks"]
 showToc: false
 weight: 140
 cover:
-    image: "projects/orgAero/cover.jpg"
+    image: "projects/tickerchart/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/TickerChart)
 
