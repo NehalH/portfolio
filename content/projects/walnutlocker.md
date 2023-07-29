@@ -7,7 +7,7 @@ tags: ["Python","Bash", "Linux", "OS"]
 showToc: false
 weight: 170
 cover:
-    image: "projects/orgAero/cover.jpg"
+    image: "projects/walnut/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/Walnut-Locker)
 
