@@ -64,7 +64,7 @@ params:
     imageHeight: 160
     buttons:
       - name: About
-        url: "/about/about"
+        url: "/about.md"
       - name: Resume
         url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
