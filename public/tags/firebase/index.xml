@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firebase on Nehal Hosalikar</title>
+    <link>https://nehalh.github.io/portfolio/tags/firebase/</link>
+    <description>Recent content in Firebase on Nehal Hosalikar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nehalh.github.io/portfolio/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AEROPHILIA&#39;22 - ORGANIZER APPLICATION</title>
+      <link>https://nehalh.github.io/portfolio/projects/orgaero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nehalh.github.io/portfolio/projects/orgaero/</guid>
+      <description>A secure Mobile Application explicitly built for the organizers of AEROPHILIA 2022, a national level Techno-Cultural fest to help keep track, send updates, and verify the participants&amp;#39; status, etc. | Tech Stack: Flutter, Firebase.</description>
+    </item>
+    
+    <item>
+      <title>HOME GROWN - LOCAL PRODUCE MARKETPLACE</title>
+      <link>https://nehalh.github.io/portfolio/projects/homegrown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nehalh.github.io/portfolio/projects/homegrown/</guid>
+      <description>A mobile application that connects hobby farmers and gardeners with consumers who are seeking fresh and locally sourced products. | Tech Stack: Java, Android SDK, Firebase.</description>
+    </item>
+    
+  </channel>
+</rss>

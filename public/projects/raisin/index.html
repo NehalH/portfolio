@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>RAISIN - FILE COMPRESSION ALGORITHM/TOOL | Nehal Hosalikar</title>
+<meta name="keywords" content="File compression, Python, File Structures">
+<meta name="description" content="Raisin is a command-line tool designed to compress text files using a unique layered Huffman encoding algorithm.">
+<meta name="author" content="Nehal Hosalikar">
+<link rel="canonical" href="https://nehalh.github.io/portfolio/projects/raisin/">
+<link crossorigin="anonymous" href="/portfolio/assets/css/stylesheet.d2342ddda82bad40d09b587c5f9cdc62d946b0c8385f74443ee2811c978a119e.css" integrity="sha256-0jQt3agrrUDQm1h8X5zcYtlGsMg4X3REPuKBHJeKEZ4=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/portfolio/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://nehalh.github.io/portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nehalh.github.io/portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nehalh.github.io/portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nehalh.github.io/portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nehalh.github.io/portfolio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="RAISIN - FILE COMPRESSION ALGORITHM/TOOL" />
+<meta property="og:description" content="Raisin is a command-line tool designed to compress text files using a unique layered Huffman encoding algorithm." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nehalh.github.io/portfolio/projects/raisin/" />
+<meta property="og:image" content="https://nehalh.github.io/portfolio/projects/raisin/cover.jpg" /><meta property="article:section" content="projects" />
+
+<meta property="og:site_name" content="Nehal Hosalikar" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://nehalh.github.io/portfolio/projects/raisin/cover.jpg" />
+<meta name="twitter:title" content="RAISIN - FILE COMPRESSION ALGORITHM/TOOL"/>
+<meta name="twitter:description" content="Raisin is a command-line tool designed to compress text files using a unique layered Huffman encoding algorithm."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://nehalh.github.io/portfolio/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "RAISIN - FILE COMPRESSION ALGORITHM/TOOL",
+      "item": "https://nehalh.github.io/portfolio/projects/raisin/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RAISIN - FILE COMPRESSION ALGORITHM/TOOL",
+  "name": "RAISIN - FILE COMPRESSION ALGORITHM\/TOOL",
+  "description": "Raisin is a command-line tool designed to compress text files using a unique layered Huffman encoding algorithm.",
+  "keywords": [
+    "File compression", "Python", "File Structures"
+  ],
+  "articleBody": "🔗 Github Repository Description Raisin is a command-line tool designed to compress text files using layered Huffman encoding techniques. It employs a layered approach, where the data is successively compressed at each layer, resulting in further reduction in size. Python is used as the programming language for the backend implementation.\nFeatures Compresses text files using layered Huffman encoding. Reduces the size of data while retaining the original content. Utilizes a binary string representation for efficient compression. Easy to use as a command-line tool. Why “Raisin”? Wondering why this compression tool is named “Raisin” ?\nJust like plump grapes transform into tiny raisins without loosing their nutrition, Raisin shrinks your data while preserving the real information. It’s compression without compromise!\nSo, Raisin takes your files, gives them a little squeeze, and voilà! They become compact, travel-friendly, and ready to be stored or transmitted with ease.\nNext time you use Raisin, remember the grape-to-raisin transformation. It’s a small change that makes a big difference!\nHappy compressing, and raisin up your data game! 🍇✨\nModules/Functions: level_1: Contains functions for Huffman encoding (huffman_L1()) and decoding (decode_L1()) at level 1. level_2: Contains functions for Huffman encoding (huffman_L2()) and decoding (decode_L2()) at level 2. pack_unpack: Contains functions for packing (pack()) and unpacking (unpack()) data for compression and decompression. read_write: Contains functions for writing the compressed data to a file (write_to_compressed_file()), reading from a compressed file (read_from_compressed_file()), reading from a regular file (read_from_file()), and writing to a regular file (write_to_file()). manipulation: Contains the main compression (compress()) and decompression (decompress()) functions, which utilize the functions from other modules to perform the necessary operations. main: Contains the main function (main()) that serves as the entry point for the program. ",
+  "wordCount" : "280",
+  "inLanguage": "en",
+  "image":"https://nehalh.github.io/portfolio/projects/raisin/cover.jpg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Nehal Hosalikar"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nehalh.github.io/portfolio/projects/raisin/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nehal Hosalikar",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nehalh.github.io/portfolio/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://nehalh.github.io/portfolio/" accesskey="h" title="Nehal Hosalikar (Alt + H)">Nehal Hosalikar</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://nehalh.github.io/portfolio/" title="Profile">
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nehalh.github.io/portfolio/blog/comingsoon" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nehalh.github.io/portfolio/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nehalh.github.io/portfolio/certifications" title="Certifications">
+                    <span>Certifications</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://nehalh.github.io/portfolio/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://nehalh.github.io/portfolio/">Home</a>&nbsp;»&nbsp;<a href="https://nehalh.github.io/portfolio/projects/">Projects</a></div>
+    <h1 class="post-title">
+      RAISIN - FILE COMPRESSION ALGORITHM/TOOL
+    </h1>
+    <div class="post-description">
+      Raisin is a command-line tool designed to compress text files using a unique layered Huffman encoding algorithm.
+    </div>
+    <div class="post-meta">
+
+Nehal Hosalikar
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://nehalh.github.io/portfolio/projects/raisin/cover.jpg" alt="">
+        
+</figure>
+  <div class="post-content"><h3 id="-github-repositoryhttpsgithubcomnehalhraisin">🔗 <a href="https://github.com/NehalH/raisin">Github Repository</a><a hidden class="anchor" aria-hidden="true" href="#-github-repositoryhttpsgithubcomnehalhraisin">#</a></h3>
+<h2 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h2>
+<p>Raisin is a command-line tool designed to compress text files using layered Huffman encoding techniques. It employs a layered approach, where the data is successively compressed at each layer, resulting in further reduction in size. Python is used as the programming language for the backend implementation.</p>
+<h2 id="features">Features<a hidden class="anchor" aria-hidden="true" href="#features">#</a></h2>
+<ul>
+<li>Compresses text files using layered Huffman encoding.</li>
+<li>Reduces the size of data while retaining the original content.</li>
+<li>Utilizes a binary string representation for efficient compression.</li>
+<li>Easy to use as a command-line tool.</li>
+</ul>
+<h2 id="why-raisin">Why &ldquo;Raisin&rdquo;?<a hidden class="anchor" aria-hidden="true" href="#why-raisin">#</a></h2>
+<p>Wondering why this compression tool is named &ldquo;Raisin&rdquo; ?</p>
+<p>Just like plump grapes transform into tiny raisins without loosing their nutrition, Raisin shrinks your data while preserving the real information. It&rsquo;s compression without compromise!</p>
+<p>So, Raisin takes your files, gives them a little squeeze, and voilà! They become compact, travel-friendly, and ready to be stored or transmitted with ease.</p>
+<p>Next time you use Raisin, remember the grape-to-raisin transformation. It&rsquo;s a small change that makes a big difference!</p>
+<p>Happy compressing, and raisin up your data game! 🍇✨</p>
+<h3 id="modulesfunctions">Modules/Functions:<a hidden class="anchor" aria-hidden="true" href="#modulesfunctions">#</a></h3>
+<ul>
+<li><strong>level_1</strong>: Contains functions for Huffman encoding (<code>huffman_L1()</code>) and decoding (<code>decode_L1()</code>) at level 1.</li>
+<li><strong>level_2</strong>: Contains functions for Huffman encoding (<code>huffman_L2()</code>) and decoding (<code>decode_L2()</code>) at level 2.</li>
+<li><strong>pack_unpack</strong>: Contains functions for packing (<code>pack()</code>) and unpacking (<code>unpack()</code>) data for compression and decompression.</li>
+<li><strong>read_write</strong>: Contains functions for writing the compressed data to a file (<code>write_to_compressed_file()</code>), reading from a compressed file (<code>read_from_compressed_file()</code>), reading from a regular file (<code>read_from_file()</code>), and writing to a regular file (<code>write_to_file()</code>).</li>
+<li><strong>manipulation</strong>: Contains the main compression (<code>compress()</code>) and decompression (<code>decompress()</code>) functions, which utilize the functions from other modules to perform the necessary operations.</li>
+<li><strong>main</strong>: Contains the main function (<code>main()</code>) that serves as the entry point for the program.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://nehalh.github.io/portfolio/tags/file-compression/">File compression</a></li>
+      <li><a href="https://nehalh.github.io/portfolio/tags/python/">Python</a></li>
+      <li><a href="https://nehalh.github.io/portfolio/tags/file-structures/">File Structures</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://nehalh.github.io/portfolio/">Nehal Hosalikar</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
