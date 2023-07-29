@@ -54,9 +54,9 @@ params:
     imageUrl: "home/profile-img.jpeg"
     imageWidth: 160
     imageHeight: 160
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
   # List View
   hideDescriptionInList: false
@@ -68,15 +68,15 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:nhosalikar@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/nehal-hosalikar-35535a204"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
-    - name: "cv"
-      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+      url: "https://github.com/NehalH"
+    #- name: "youtube"
+    #  url: ""
+    #- name: "cv"
+    #  url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
   # text search
   fuseOpts:
