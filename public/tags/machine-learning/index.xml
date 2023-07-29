@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning on Nehal Hosalikar</title>
+    <link>https://nehalh.github.io/portfolio/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Nehal Hosalikar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nehalh.github.io/portfolio/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GUT-WISE</title>
+      <link>https://nehalh.github.io/portfolio/projects/gutwise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nehalh.github.io/portfolio/projects/gutwise/</guid>
+      <description>A Decision Tree based classification model for determining gut health.</description>
+    </item>
+    
+    <item>
+      <title>BACLENS</title>
+      <link>https://nehalh.github.io/portfolio/projects/baclens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nehalh.github.io/portfolio/projects/baclens/</guid>
+      <description>Flutter application that can recognize various microscopic organisms using Machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>
