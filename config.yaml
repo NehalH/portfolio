@@ -31,7 +31,7 @@ menu:
     #   weight: 60
     # - identifier: notes
     #   name: Notes
-    #   url: https://notes.arkalim.org
+    #   url: 
     #   weight: 70
 
 params:
@@ -44,6 +44,10 @@ params:
 
   # for enchanced SEO
   env: production
+  title: Nehal Hosalikar
+  description: "Portfolio website by Nehal Hosalikar"
+  keywords: [Portfolio, Nehal, Hosalikar, Sahyadri]
+  author: Nehal Hosalikar
 
   # Home Page
   profileMode:
@@ -55,6 +59,8 @@ params:
     imageWidth: 160
     imageHeight: 160
     buttons:
+      - name: About
+        url: "/about/about"
       - name: Resume
         url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
