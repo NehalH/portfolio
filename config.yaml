@@ -9,11 +9,10 @@ menu:
       name: Profile
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /about/about
-      #url: /blog/comingsoon
-      weight: 20
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog/comingsoon
+    #   weight: 20
     - identifier: projects
       name: Projects
       url: /projects

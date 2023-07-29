@@ -6,8 +6,8 @@ draft: false
 tags: ["Machine Learning", "Python", "Classification model"]
 showToc: false
 weight: 170
-cover:
-    image: "projects/orgAero/cover.jpg"
+# cover:
+#     image: "projects/orgAero/cover.jpg"
 --- 
 ### 🔗 [Github Repository](https://github.com/NehalH/GutWise)
 
