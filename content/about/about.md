@@ -3,7 +3,6 @@ author: "Muhammad Daffa"
 # title: "Nehal Hosalikar"
 date: "2019-03-09"
 # description: "About Muhammad Daffa"
-tags: ["profile"]
 showToc: false
 draft: false
 hidemeta: true
@@ -25,11 +24,11 @@ My toolkit also includes proficiency in Git for version control and Illustrator 
 
 ### Passion for Volunteering
 
-Beyond my technical expertise, I am deeply committed to giving back to the community and contributing to the growth of others. As an ***Organizer and Technical Lead***, I played a key role in organizing and managing ***Aerophilia 2022***, a national level techno-cultural fest that brought together technology enthusiasts from diverse backgrounds. I also served as a ***Technical & Core Member*** of ***Team Challengers***, a Technical Club that provided a platform for learning, collaboration, and skill development.
+Beyond my technical expertise, I am deeply committed to giving back to the community and contributing to the growth of others. As an ***Organizer and Technical Lead***, I played a key role in organizing and managing [***Aerophilia 2022***](https://aerophilia.in/), a national level techno-cultural fest that brought together technology enthusiasts from diverse backgrounds. I also served as a ***Technical & Core Member*** of [***Team Challengers***](https://challengers.sahyadri.edu.in), a Technical Club that provided a platform for learning, collaboration, and skill development.
 
 ### Education and Aspirations
 
-I am currently pursuing ***Bachelor of Engineering ( Information Science )*** at ***Sahyadri College of Engineering and Management***.
+I am currently pursuing ***Bachelor of Engineering ( Information Science )*** at [***Sahyadri College of Engineering and Management***](https://sahyadri.edu.in/).
 
 ### Embracing Soft Skills
 
@@ -37,6 +36,4 @@ In addition to my technical acumen, I possess essential soft skills that complem
 
 ### Let's Connect!
 
-If you share a passion for technology and innovation or are interested in collaborating on exciting projects, I'd love to connect with you. Let's embark on this journey of growth and advancement together, as we contribute to creating a better, technologically advanced future.
-
-Thank you for visiting my portfolio website, and I look forward to exploring the endless possibilities that lie ahead.
+If you share a passion for technology and innovation or are interested in collaborating on exciting projects, I'd love to connect with you. Please find my contact details [here](/).

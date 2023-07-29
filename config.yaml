@@ -6,7 +6,7 @@ theme: PaperMod
 menu:
   main:
     - identifier: home
-      name: Home
+      name: Profile
       url: /
       weight: 10
     - identifier: blog
