@@ -2,7 +2,7 @@ baseURL: "https://nehalh.github.io/portfolio/"
 languageCode: en-us
 title: Nehal Hosalikar
 theme: PaperMod
-googleAnalytics = "G-QTYSD4HXKK"
+googleAnalytics: "G-QTYSD4HXKK"
 
 menu:
   main:
