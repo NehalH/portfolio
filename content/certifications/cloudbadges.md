@@ -6,5 +6,7 @@ draft: false
 tags: ["Certifications", "Course", "Badges"]
 showToc: false
 weight: 140
+cover:
+    image: "certificates/googleCloudBadge.png"
 --- 
 ### 🔗 [Credential](https://www.cloudskillsboost.google/public_profiles/f84f0706-844a-464e-8572-edd08397ba68)
