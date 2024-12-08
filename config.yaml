@@ -51,18 +51,18 @@ params:
   env: production
   title: Nehal Hosalikar
   description: "Portfolio website by Nehal Hosalikar"
-  keywords: [Portfolio, Nehal, Hosalikar, Sahyadri]
+  keywords: [Portfolio, Nehal, Hosalikar, Sahyadri, Deloitte, Nehal Hosalikar]
   author: Nehal Hosalikar
 
   # Home Page
   profileMode:
     enabled: true
     title: "Nehal Hosalikar"
-    subtitle: A passionate engineer exploring and seeking opportunities to develop professionally and contribute to developing innovative cutting-edge technology solutions.
+    subtitle: Product Engineer at [**Deloitte.**](https://www.deloitte.com/global/en.html)
 
     imageUrl: "home/profile-img.jpeg"
-    imageWidth: 160
-    imageHeight: 160
+    imageWidth: 300
+    imageHeight: 300
     buttons:
       - name: About
         url: about/about
