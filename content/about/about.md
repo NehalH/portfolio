@@ -1,7 +1,7 @@
 ---
 author: "Nehal Hosalikar"
-# title: "Nehal Hosalikar"
-date: "2019-03-09"
+title: "About Me"
+date: "2026-10-25"
 showToc: false
 draft: false
 hidemeta: true
@@ -13,26 +13,59 @@ ShowRssButtonInSectionTermList: false
 
 ## About Me
 
-Hello! I'm Nehal, a passionate and driven engineer on a relentless pursuit of professional growth and innovation in the world of cutting-edge technology solutions. With a diverse skill set and an insatiable curiosity, I thrive on exploring new possibilities and pushing the boundaries of what's possible.
+Hello! I'm **Nehal Hosalikar**, a **Senior Software Engineer** based in Bengaluru, specializing in building scalable microservices, distributed enterprise applications, and resilient cloud architectures.
 
-### Skills and Tools
+With deep expertise across **Node.js**, **TypeScript**, **JavaScript**, **React**, **PostgreSQL**, and **AWS**, I specialize in building secure API integrations, event-driven backends, and high-performance database architectures. I have a proven track record of elevating system reliability, optimizing database queries, and reducing API latency by **60%** across enterprise platforms.
 
-I'm well-versed in several programming languages, including ***C***, ***Python***, ***Java***, ***SQL***, ***Bash***, and ***HTML***. These languages serve as the foundation for my ability to build robust and efficient software solutions. Additionally, I have experience with frameworks like ***Flutter*** and ***Flask***, which enable me to develop interactive and dynamic applications.
+---
 
-My toolkit also includes proficiency in Git for version control and Illustrator for creative design work. I am well-acquainted with ***PostgreSQL*** for managing databases, which is crucial for developing scalable applications. Furthermore, I'm adept at working in various platforms, such as ***Linux***, ***Windows***, and ***Arduino***, giving me the versatility to tackle diverse technological challenges.
+### Professional Experience
 
-### Passion for Volunteering
+#### **[Deloitte Touche Tohmatsu India LLP](https://www.deloitte.com/global/en.html)** | Bengaluru, India
+- **Senior Software Engineer - 1** (*May 2026 - Present*)
+- **Software Engineer** (*June 2024 - May 2026*)
 
-Beyond my technical expertise, I am deeply committed to giving back to the community and contributing to the growth of others. As an ***Organizer and Technical Lead***, I played a key role in organizing and managing [***Aerophilia 2022***](https://aerophilia.in/), a national level techno-cultural fest that brought together technology enthusiasts from diverse backgrounds. I also served as a ***Technical & Core Member*** of [***Team Challengers***](https://challengers.sahyadri.edu.in), a Technical Club that provided a platform for learning, collaboration, and skill development.
+At Deloitte, I co-architected and engineered backend systems for multi-tenant, microservices-based enterprise platforms on AWS. My contributions include:
+- **Scalable Microservices**: Architected backend microservices using Node.js, Express, TypeScript, PostgreSQL, and RabbitMQ on AWS.
+- **Database & Security Overhaul**: Led a comprehensive database architecture modernization, implementing PostgreSQL Row-Level Security (RLS) and schema partitioning to enforce robust tenant isolation and compliance.
+- **Performance Optimization**: Slashed API response times by nearly **60% (from 30s to 11s)** by optimizing database indexing, restructuring data processing pipelines, and refining query construction via TypeORM QueryBuilder.
+- **High-Throughput Integrations**: Built asynchronous payment gateway and digital signature processing pipelines capable of handling **10,000+ daily transactions**.
+- **Cloud & DevOps**: Configured and managed containerized deployments across AWS (EKS, EC2, RDS, S3, ECR) with Docker and Kubernetes.
+- **Frontend & Testing**: Developed reusable React component libraries (accelerating frontend development by 50%) and implemented robust automated unit and integration tests (Jest) to minimize regressions.
 
-### Education and Aspirations
+---
 
-I am currently pursuing ***Bachelor of Engineering ( Information Science )*** at [***Sahyadri College of Engineering and Management***](https://sahyadri.edu.in/).
+### Technical Skills
 
-### Embracing Soft Skills
+- **Languages**: JavaScript, TypeScript, Python, SQL, Java
+- **Frameworks & Libraries**: React, Node.js, Express.js, Spring Boot, Flask
+- **Cloud, DevOps & Messaging**: AWS (EKS, EC2, RDS, S3, ECR), Docker, Kubernetes, RabbitMQ, Kafka, CI/CD, Git, Linux, AI Coding Assistants
+- **Databases & ORM**: PostgreSQL, Redis, MySQL, MongoDB, TypeORM QueryBuilder
+- **Core Concepts**: System Design, Microservices, Row-Level Security (RLS), Role-Based Access Control (RBAC), GraphQL, REST APIs, OOP, Data Structures & Algorithms
 
-In addition to my technical acumen, I possess essential soft skills that complement my technical abilities. My experience in ***teaching*** has strengthened my communication and presentation skills, allowing me to effectively convey complex ideas to diverse audiences. ***Event management*** has taught me the importance of coordination and organization in achieving successful outcomes, while my ***leadership*** experiences have instilled in me a drive to motivate and inspire others.
+---
+
+### Education
+
+- **Bachelor of Engineering (B.E.) in Information Science and Engineering**
+  **Sahyadri College of Engineering and Management (VTU)**
+  *Nov 2020 - June 2024* | **CGPA: 8.2**
+
+---
+
+### Leadership & Community
+
+- **Organizer & Technical Lead — [Aerophilia 2022](https://aerophilia.in/)**: Directed technical operations, coordinated logistics, and led the development of the official organizer app for a premier national-level techno-cultural fest.
+- **Technical & Core Member — [Team Challengers](https://challengers.sahyadri.edu.in/)**: Mentored students, spearheaded technical projects, and conducted workshops on software engineering, robotics, and design.
+
+---
 
 ### Let's Connect!
 
-If you share a passion for technology and innovation or are interested in collaborating on exciting projects, I'd love to connect with you. Please find my contact details [here](/).
+I am always keen to connect with fellow engineers, builders, and technology enthusiasts.
+
+- **Resume**: [Download / View Resume (PDF)](/portfolio/Nehal_Hosalikar.pdf)
+- **LinkedIn**: [linkedin.com/in/nehal-hosalikar](https://www.linkedin.com/in/nehal-hosalikar)
+- **GitHub**: [github.com/NehalH](https://github.com/NehalH)
+- **Twitter**: [twitter.com/nhosalikar](https://twitter.com/nhosalikar)
+- **Email**: [nhosalikar@gmail.com](mailto:nhosalikar@gmail.com)

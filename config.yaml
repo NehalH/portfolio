@@ -14,6 +14,10 @@ menu:
     #   name: Blog
     #   url: /blog/comingsoon
     #   weight: 20
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects
@@ -22,10 +26,6 @@ menu:
       name: Certifications
       url: /certifications
       weight: 40
-    # - identifier: experience
-    #   name: Experience
-    #   url: /experience
-    #   weight: 40
     - identifier: search
       name: Search
       url: /search
@@ -50,15 +50,15 @@ params:
   # for enchanced SEO
   env: production
   title: Nehal Hosalikar
-  description: "Portfolio website by Nehal Hosalikar"
-  keywords: [Portfolio, Nehal, Hosalikar, Sahyadri, Deloitte, Nehal Hosalikar]
+  description: "Senior Software Engineer specializing in scalable microservices, distributed enterprise applications, PostgreSQL, and AWS cloud architecture."
+  keywords: [Portfolio, Nehal Hosalikar, Senior Software Engineer, Deloitte, Microservices, Node.js, TypeScript, PostgreSQL, AWS, Distributed Systems]
   author: Nehal Hosalikar
 
   # Home Page
   profileMode:
     enabled: true
     title: "Nehal Hosalikar"
-    subtitle: Product Engineer at [**Deloitte.**](https://www.deloitte.com/global/en.html)
+    subtitle: Senior Software Engineer at [**Deloitte**](https://www.deloitte.com/global/en.html)
 
     imageUrl: "home/profile-img.jpeg"
     imageWidth: 300
@@ -67,7 +67,7 @@ params:
       - name: About
         url: about/about
       - name: Resume
-        url: "https://drive.google.com/file/d/1cCrmL0Lsp93JdPw1wfBm6HfUWR9mLfwm/view?usp=sharing"
+        url: "Nehal_Hosalikar.pdf"
 
   # List View
   hideDescriptionInList: false
@@ -81,13 +81,13 @@ params:
     - name: "email"
       url: "mailto:nhosalikar@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/nehal-hosalikar-35535a204"
+      url: "https://www.linkedin.com/in/nehal-hosalikar"
     - name: "github"
       url: "https://github.com/NehalH"
+    - name: "twitter"
+      url: "https://twitter.com/nhosalikar"
     #- name: "youtube"
     #  url: ""
-    #- name: "cv"
-    #  url: "https://drive.google.com/file/d/1Mp3cypZ_ioFDl_Nh0uepbfxLjEdJoI1c/view?usp=drive_link"
 
   # text search
   fuseOpts:

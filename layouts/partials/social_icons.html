@@ -1,0 +1,9 @@
+<div class="social-icons">
+    {{- range . }}
+    {{- $url := trim .url " " }}
+    {{- $is_mailto_or_tel := or (hasPrefix $url "mailto:") (hasPrefix $url "tel:") }}
+    <a href="{{ $url | safeURL }}" {{- if not $is_mailto_or_tel }} target="_blank" rel="noopener noreferrer me"{{- end }} title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+    </a>
+    {{- end }}
+</div>

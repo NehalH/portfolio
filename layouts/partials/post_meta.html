@@ -2,7 +2,7 @@
 
 <!-- Use dateString instead of date -->
 {{- if .Param "DateString"}}
-{{ .Param "DateString" }}
+{{- $scratch.Add "meta" (slice (.Param "DateString")) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
